@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pngegg.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Search Anime</title>
+</head>
+
+<body>
+    <div class="header">Procure um anime pelo frame de um episódio</div>
+        
+    <div class="container">
+        <p>Insira uma imagem do anime e descubra qual o nome dele ↓</p>
+        <p>Há possibilidades de a API não encontrar o anime correto, caso aconteça tente usar outra imagem.</p>
+
+        <div class="sendImage">
+            <input type="file" id="avatar" accept="image/png, image/jpeg, image/webp">
+
+        </div>
+        <div id="content">
+            <p id="imagemcontent" style="display: none;">
+            <p id="imagem"></p>
+            </p>
+            <p id="animeName"></p>
+        </div>
+        <button id="send">Enviar</button>
+    </div>
+
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
